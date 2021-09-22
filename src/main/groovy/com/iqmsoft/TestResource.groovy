@@ -9,7 +9,7 @@ class TestResource {
     @GET
     @Produces("text/plain")
     def String getMessage() {
-        return "Hello World From Spring Boot Jersey Groovy!";
+        return "Hello From Spring Boot 2.5.4 Jersey Groovy!";
     }
 }
 
